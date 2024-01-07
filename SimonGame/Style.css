@@ -1,0 +1,52 @@
+body
+   {
+    background-color: rgb(34, 54, 65);
+    text-align: center;
+   }
+
+h1
+    {
+    font-size: 4rem;
+    font-family:cursive;
+    color:white;
+    text-shadow: 6px 6px black;
+    }
+
+
+.btn
+    {
+    height: 200px;
+    width: 200px;
+    margin: 8px;
+    display: inline-block;
+    border-radius: 20%;
+    border: black solid 8px;
+    }
+    
+    .b1{
+        background-color: red;
+    }
+
+    .b2{
+        background-color: green;
+    }
+
+    .b3{
+        background-color: yellow;
+    }
+
+    .b4{
+        background-color: blue;
+    }
+
+    .pressed{
+
+        box-shadow: 0 0 20px white;
+        background-color: grey;
+
+    }
+
+    .game-over {
+        background-color: red;
+        opacity: 0.8;
+    }
